@@ -5,301 +5,374 @@
 
 /* Base */
 .rf {
-  display: flex;
+    display: flex;
 }
 
 .rf-row {
-  flex-direction: row;
+    flex-direction: row;
 }
 
 .rf-column {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .rf-wrap {
-  flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .rf-nowrap {
-  flex-wrap: nowrap;
+    flex-wrap: nowrap;
 }
 
 /* overall arrangement */
 .rf-center {
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.rf-start {
-  justify-content: flex-start;
-  align-items: flex-start;
+.rf-lt {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
-.rf-end {
-  justify-content: flex-end;
-  align-items: flex-end;
+.rf-lc {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rf-lb {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.rf-ct {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.rf-cc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rf-cb {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.rf-rt {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.rf-rc {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rf-rb {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .rf-between {
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rf-t-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.rf-c-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.rf-b-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .rf-around {
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rf-t-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.rf-c-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.rf-b-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* alignment */
 .rf-align-start {
-  align-items: flex-start;
+    align-items: flex-start;
 }
 
 .rf-align-end {
-  align-items: flex-end;
+    align-items: flex-end;
 }
 
 .rf-align-center {
-  align-items: center;
+    align-items: center;
 }
 
 .rf-align-baseline {
-  align-items: baseline;
+    align-items: baseline;
 }
 
 .rf-align-stretch {
-  align-items: stretch;
+    align-items: stretch;
 }
 
 /* justify-content */
 .rf-justify-start {
-  justify-content: flex-start;
+    justify-content: flex-start;
 }
 
 .rf-justify-end {
-  justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 .rf-justify-center {
-  justify-content: center;
+    justify-content: center;
 }
 
 .rf-justify-between {
-  justify-content: space-between;
+    justify-content: space-between;
 }
 
 .rf-justify-around {
-  justify-content: space-around;
+    justify-content: space-around;
 }
 
 /* flex */
 .rf-1 {
-  flex: 1;
+    flex: 1;
 }
 
 .rf-2 {
-  flex: 2;
+    flex: 2;
 }
 
 .rf-3 {
-  flex: 3;
+    flex: 3;
 }
 
 .rf-4 {
-  flex: 4;
+    flex: 4;
 }
 
 .rf-5 {
-  flex: 5;
+    flex: 5;
 }
 
 .rf-6 {
-  flex: 6;
+    flex: 6;
 }
 
 .rf-7 {
-  flex: 7;
+    flex: 7;
 }
 
 .rf-8 {
-  flex: 8;
+    flex: 8;
 }
 
 .rf-9 {
-  flex: 9;
+    flex: 9;
 }
 
 .rf-10 {
-  flex: 10;
+    flex: 10;
 }
 
 .rf-11 {
-  flex: 11;
+    flex: 11;
 }
 
 .rf-12 {
-  flex: 12;
+    flex: 12;
 }
 
 /* flex-grow */
 .rf-grow-0 {
-  flex-grow: 0;
+    flex-grow: 0;
 }
 
 .rf-grow-1 {
-  flex-grow: 1;
+    flex-grow: 1;
 }
 
 .rf-grow-2 {
-  flex-grow: 2;
+    flex-grow: 2;
 }
 
 .rf-grow-3 {
-  flex-grow: 3;
+    flex-grow: 3;
 }
 
 .rf-grow-4 {
-  flex-grow: 4;
+    flex-grow: 4;
 }
 
 .rf-grow-5 {
-  flex-grow: 5;
+    flex-grow: 5;
 }
 
 .rf-grow-6 {
-  flex-grow: 6;
+    flex-grow: 6;
 }
 
 .rf-grow-7 {
-  flex-grow: 7;
+    flex-grow: 7;
 }
 
 .rf-grow-8 {
-  flex-grow: 8;
+    flex-grow: 8;
 }
 
 .rf-grow-9 {
-  flex-grow: 9;
+    flex-grow: 9;
 }
 
 .rf-grow-10 {
-  flex-grow: 10;
+    flex-grow: 10;
 }
 
 .rf-grow-11 {
-  flex-grow: 11;
+    flex-grow: 11;
 }
 
 .rf-grow-12 {
-  flex-grow: 12;
+    flex-grow: 12;
 }
 
 /* flex-shrink */
 .rf-shrink-0 {
-  flex-shrink: 0;
+    flex-shrink: 0;
 }
 
 .rf-shrink-1 {
-  flex-shrink: 1;
+    flex-shrink: 1;
 }
 
 .rf-shrink-2 {
-  flex-shrink: 2;
+    flex-shrink: 2;
 }
 
 .rf-shrink-3 {
-  flex-shrink: 3;
+    flex-shrink: 3;
 }
 
 .rf-shrink-4 {
-  flex-shrink: 4;
+    flex-shrink: 4;
 }
 
 .rf-shrink-5 {
-  flex-shrink: 5;
+    flex-shrink: 5;
 }
 
 .rf-shrink-6 {
-  flex-shrink: 6;
+    flex-shrink: 6;
 }
 
 .rf-shrink-7 {
-  flex-shrink: 7;
+    flex-shrink: 7;
 }
 
 .rf-shrink-8 {
-  flex-shrink: 8;
+    flex-shrink: 8;
 }
 
 .rf-shrink-9 {
-  flex-shrink: 9;
+    flex-shrink: 9;
 }
 
 .rf-shrink-10 {
-  flex-shrink: 10;
+    flex-shrink: 10;
 }
 
 .rf-shrink-11 {
-  flex-shrink: 11;
+    flex-shrink: 11;
 }
 
 .rf-shrink-12 {
-  flex-shrink: 12;
+    flex-shrink: 12;
 }
 
 /* flex-basis */
 .rf-basis-0 {
-  flex-basis: 0;
+    flex-basis: 0;
 }
 
 .rf-basis-1 {
-  flex-basis: 1;
+    flex-basis: 1;
 }
 
 .rf-basis-2 {
-  flex-basis: 2;
+    flex-basis: 2;
 }
 
 .rf-basis-3 {
-  flex-basis: 3;
+    flex-basis: 3;
 }
 
 .rf-basis-4 {
-  flex-basis: 4;
+    flex-basis: 4;
 }
 
 .rf-basis-5 {
-  flex-basis: 5;
+    flex-basis: 5;
 }
 
 .rf-basis-6 {
-  flex-basis: 6;
+    flex-basis: 6;
 }
 
 .rf-basis-7 {
-  flex-basis: 7;
+    flex-basis: 7;
 }
 
 .rf-basis-8 {
-  flex-basis: 8;
+    flex-basis: 8;
 }
 
 .rf-basis-9 {
-  flex-basis: 9;
+    flex-basis: 9;
 }
 
 .rf-basis-10 {
-  flex-basis: 10;
+    flex-basis: 10;
 }
 
 .rf-basis-11 {
-  flex-basis: 11;
+    flex-basis: 11;
 }
 
 .rf-basis-12 {
-  flex-basis: 12;
+    flex-basis: 12;
 }
-
-
-
-
