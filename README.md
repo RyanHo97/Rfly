@@ -1,4 +1,4 @@
-![](https://github.com/RyanHo97/Rfly/edit/main/logo/logo.png)
+![logo](https://github.com/RyanHo97/Rfly/edit/main/logo/logo.png)
 
 # 欢迎来到Rfly🎉
 
