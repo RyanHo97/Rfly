@@ -1,0 +1,19 @@
+{
+  "name": "rfly",
+  "version": "1.0.0",
+  "description": "![logo](https://github.com/RyanHo97/Rfly/blob/main/logo/logo.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanHo97/Rfly.git"
+  },
+  "author": "Ryanho97",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RyanHo97/Rfly/issues"
+  },
+  "homepage": "https://github.com/RyanHo97/Rfly#readme"
+}
