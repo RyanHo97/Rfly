@@ -1,6 +1,6 @@
 {
   "name": "rfly",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "![logo](https://github.com/RyanHo97/Rfly/blob/main/logo/logo.png)",
   "main": "index.js",
   "scripts": {
