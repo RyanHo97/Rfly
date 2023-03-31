@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rfly-Test</title>
-    <link rel="stylesheet" href="../dist/rfly.css">
+    <link rel="stylesheet" href="../dist/rfly-dev.css">
 
     <style>
         .rf {
@@ -34,81 +34,122 @@
             width: 40px;
             height: 40px;
         }
+        .title{
+            font-size: 30px;
+            color: #FFFFFF;
+            background-color: #19CAAD;
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            margin: 0px auto 50px auto;
+        }
+        .block-title{
+            font-size: 20px;
+            width: 100%;
+            height: 30px;
+            line-height: 30px;
+            margin: 50px auto 20px auto;
+        }
     </style>
 </head>
 
 
 <body>
-    <div class="rf-center">RFly布局样例</div>
+    <div class="title rf-center">RFly使用说明</div>
+    <div class="block-title rf-center">RFly基础</div>
     <div class="content">
-        <div class="rf-between">
+        <div>
+            <div class="rf-center">垂直居中</div>
             <div class="rf rf-center">
                 <div class="test-1">1</div>
                 <div class="test-2">2</div>
                 <div class="test-3">3</div>
             </div>
+            <div class="rf-center">左上角</div>
             <div class="rf rf-lt">
                 <div class="test-1">1</div>
                 <div class="test-2">2</div>
                 <div class="test-3">3</div>
             </div>
+            <div class="rf-center">左侧垂直居中</div>
             <div class="rf rf-lc">
                 <div class="test-1">1</div>
                 <div class="test-2">2</div>
                 <div class="test-3">3</div>
             </div>
         </div>
-        <div class="rf-between">
+        <div>
+            <div class="rf-center">左下角</div>
             <div class="rf rf-lb">
                 <div class="test-1">1</div>
                 <div class="test-2">2</div>
                 <div class="test-3">3</div>
             </div>
+            <div class="rf-center">顶部水平居中</div>
             <div class="rf rf-ct">
                 <div class="test-1">1</div>
                 <div class="test-2">2</div>
                 <div class="test-3">3</div>
             </div>
+            <div class="rf-center">垂直水平居中</div>
             <div class="rf rf-cc">
                 <div class="test-1">1</div>
                 <div class="test-2">2</div>
                 <div class="test-3">3</div>
             </div>
         </div>
-        <div class="rf-between">
+        <div>
+            <div class="rf-center">底部水平居中</div>
             <div class="rf rf-cb">
                 <div class="test-1">1</div>
                 <div class="test-2">2</div>
                 <div class="test-3">3</div>
             </div>
+            <div class="rf-center">右上角</div>
             <div class="rf rf-rt">
                 <div class="test-1">1</div>
                 <div class="test-2">2</div>
                 <div class="test-3">3</div>
             </div>
+            <div class="rf-center">右侧垂直居中</div>
             <div class="rf rf-rc">
                 <div class="test-1">1</div>
                 <div class="test-2">2</div>
                 <div class="test-3">3</div>
             </div>
         </div>
-        <div class="rf-between">
+        <div>
+            <div class="rf-center">右下角</div>
             <div class="rf rf-rb">
                 <div class="test-1">1</div>
                 <div class="test-2">2</div>
                 <div class="test-3">3</div>
             </div>
-
+            <div class="rf-center">两端对齐</div>
             <div class="rf rf-between">
                 <div class="test-1">1</div>
                 <div class="test-2">2</div>
                 <div class="test-3">3</div>
             </div>
-
+            <div class="rf-center">平均分布</div>
             <div class="rf rf-around">
                 <div class="test-1">1</div>
                 <div class="test-2">2</div>
                 <div class="test-3">3</div>
+            </div>
+        </div>
+        </div>
+        <div class="block-title rf-center">RFly拓展样例</div>
+        <div>
+            <div class="rf-center">列表</div>
+            <div class="rf rf-between">
+                <div class="rf-lc">
+                    <div class="test-1">1</div>
+                    <div class="test-2">2</div>
+                </div>
+                <div class="rf-rc">
+                    <div class="test-3">3</div>
+                </div>
             </div>
         </div>
         </div>
